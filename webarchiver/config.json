@@ -1,0 +1,16 @@
+{
+  "_comment": "List every URL you want the crawler to capture. Each run creates one new dated snapshot per URL.",
+  "urls": [
+    "https://neouat.axismaxlife.com/",
+"https://neouat.axismaxlife.com/term-insurance-plans",
+"https://neouat.axismaxlife.com/health-insurance-plans",
+"https://neouat.axismaxlife.com/investment-plans",
+"https://neouat.axismaxlife.com/pension-plans"
+  ],
+  "scroll": {
+    "max_steps": 12,
+    "step_delay_ms": 350,
+    "step_px": 1200
+  },
+  "timeout_ms": 45000
+}

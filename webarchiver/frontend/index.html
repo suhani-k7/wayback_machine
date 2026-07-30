@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wayback Machine - Local Archive Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <h1>Archive</h1>
+        <button id="toggle-sidebar" title="Collapse sidebar">&larr;</button>
+      </div>
+
+      <div class="sidebar-section">
+        <label for="site-select">Site</label>
+        <div class="autocomplete">
+          <input type="text" id="site-input" placeholder="Search or select a site..." autocomplete="off">
+          <ul id="site-list" class="dropdown hidden"></ul>
+        </div>
+      </div>
+
+      <div class="sidebar-section" id="calendar-section">
+        <div class="calendar-header">
+          <button id="cal-prev">&larr;</button>
+          <span id="cal-month-year"></span>
+          <button id="cal-next">&rarr;</button>
+        </div>
+        <table class="calendar">
+          <thead>
+            <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+          </thead>
+          <tbody id="cal-body"></tbody>
+        </table>
+      </div>
+
+      <div class="sidebar-footer">
+        <button id="theme-toggle">Dark Mode</button>
+      </div>
+    </aside>
+
+    <main id="viewer">
+      <div id="welcome">
+        <h2>Select a site and date to view an archived snapshot</h2>
+      </div>
+      <iframe id="archive-frame" class="hidden" sandbox="allow-same-origin"></iframe>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
