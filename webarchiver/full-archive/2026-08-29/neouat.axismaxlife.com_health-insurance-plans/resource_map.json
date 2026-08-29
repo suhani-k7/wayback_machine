@@ -1,0 +1,12 @@
+{
+  "https://captcha.perfdrive.com/captcha-public/css/shieldsquare_styles.min.css": "resources/css/c2ef63d38dce6b48.css",
+  "https://hcaptcha.com/1/api.js?recaptchacompat=off": "resources/js/20a5329de398c12e.js",
+  "https://captcha.perfdrive.com/captcha-public/images/ss_captcha.png": "resources/img/2a701a747abdb7e7.png",
+  "https://fonts.googleapis.com/css?family=Lato": "resources/css/b53ca6a683932902.css",
+  "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXg.woff2": "resources/fonts/1ceff43a2cddfa9e.woff2",
+  "https://cdn.perfdrive.com/aperture/aperture.js": "resources/js/22929a72f62fbf66.js",
+  "https://cas.avalon.perfdrive.com/jsdata?": "resources/other/e6d6ad197dcc5929.txt",
+  "https://8f271b3b3ccd.w.hcaptcha.com/logo.png": "resources/img/2ccb6113f8b9a3b6.png",
+  "https://api.hcaptcha.com/checksiteconfig?v=ce9396fa32f5ab87b0a82b60e5313af4da3a3e5b&host=validate.perfdrive.com&sitekey=ae73173b-7003-44e0-bc87-654d0dab8b75&sc=1&swa=1&spst=1": "resources/other/f4a486c24cd59421.json",
+  "https://newassets.hcaptcha.com/c/50a6e2217372fb5c78647e6cf47cd97d1bd7d766d8dd9c956d1d216618925032/hsw.js": "resources/js/b15449015016b6dc.js"
+}
